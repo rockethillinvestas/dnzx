@@ -3,7 +3,7 @@ var Portfolio = require("./portfolioModel");
 var axios = require("axios");
 var _ = require("lodash");
 
-cron.schedule("*/60 * * * *", () => {
+cron.schedule("*/5 * * * *", () => {
   updatePortfolio();
 });
 
