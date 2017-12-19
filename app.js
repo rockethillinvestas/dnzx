@@ -4,7 +4,7 @@ var db = require("./db");
 var logger = require("morgan");
 var bodyParser = require("body-parser");
 
-var PortfolioController = require("./portfolio/PortfolioController");
+var PortfolioController = require("./portfolio/portfolioController");
 
 var portfolioUtility = require("./portfolio/portfolioUtility");
 
